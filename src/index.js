@@ -31,16 +31,21 @@ backButton[0].addEventListener('click', () => {
         options.style.display = 'flex';
         signInMenu.style.display = 'none';
         signUpMenu.style.display = 'none';
+        signInEmail.value='';
+        signInPassword.value='';
     }
-})
+})////signIn button
 backButton[1].addEventListener('click', () => {
     if (options.style.display == 'none') {
         options.style.display = 'flex';
         signInMenu.style.display = 'none';
         signUpMenu.style.display = 'none';
+        signUpName.value='';
+        signUpEmail.value='';
+        signUpPassword.value='';
+        signUpConfirmPassword.value='';
     }
-})
-////////////
+})/////signUp button
 
 //////////////////// sign up and sign in buttons event
 signUpButton.addEventListener('click', () => {
