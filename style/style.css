@@ -30,9 +30,13 @@ label{
     flex-direction: column;
     margin: 1em 0;
 }
-h2{
+button:hover,h2:hover{
     cursor: pointer;
-}
-h2:hover{
     color: #830000;
+}
+button{
+    font-weight: bold;
+    outline: 0;
+    border:none;
+    background-color: #fefefe;
 }
